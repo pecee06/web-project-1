@@ -1,0 +1,283 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(97, 53, 216);
+    overflow: auto;
+    margin: -8px -8px;
+}
+
+#hamburger{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+}
+
+nav{
+    clear: both;
+    margin: 0px -8px;
+    background-color: aquamarine;
+    overflow: auto;
+    padding: 10px;
+}
+
+nav li{
+    float: left;
+    margin: 0px 110px;
+    list-style: none;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(65, 62, 62);
+    font-weight: bold;
+    font-size: large;
+}
+
+#ex3{
+    width: 40%;
+    float: right;
+    position: relative;
+    top: 150px;
+    margin-right: -8px;
+}
+
+#ex6{
+    width: 40%;
+    float: left;
+    position: relative;
+    top: 300px;
+    margin-left: 80px;
+}
+
+#mainlogo1{
+    width: 210px;
+    height: 100px;
+    position: relative;
+    left: -20px;
+}
+
+#mainlogo2{
+    width: 210px;
+    height: 100px;
+    position: relative;
+    right: -650px;
+}
+
+header li{
+    float: left;
+    list-style: none;
+}
+
+header h1{
+    position: relative;
+    top: -8px;
+    left: 350px;
+    color: white;
+    font-size: 45px;
+}
+
+#intro{
+    font-size: 100px;
+    color: rgb(97, 53, 216);
+    background-color: black;
+    position: relative;
+    top: 250px;
+}
+
+#join{
+    float: right;
+    position: relative;
+    top: 280px;
+    font-size: 50px;
+    margin-right: 200px;
+    color: rgb(255, 0, 43);
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#pitch{
+    position: relative;
+    top: 400px;
+    font-size: 30px;
+    color: rgb(11, 39, 49);
+    width: 500px;
+    display: inline-block;
+    margin: auto;
+}
+
+button{
+    position: relative;
+    right: 320px;
+    top: 450px;
+    font-size: xx-large;
+    border: none;
+    background-color: rgb(21, 67, 83);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+#ex1{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 500px;
+}
+
+#ex2{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 135px;
+}
+
+#one{
+    color: rgb(255, 255, 255);
+    font-size: 300px;
+    position: relative;
+    top: 200px;
+    float: right;
+}
+
+#two{
+    color: rgb(255, 255, 255);
+    font-size: 300px;
+    position: relative;
+    top: -232px;
+    float: right;
+}
+
+.container p{
+    width: 500px;
+    font-size: xx-large;
+    border: 1px solid black;
+    display: inline-block;
+    line-height: 60px;
+    position: relative;
+    left: 380px;
+    top: -100px;
+    text-align: center;
+    padding: 50px;
+}
+
+.container em{
+    color: rgb(66, 7, 66);
+    font-style: normal;
+    font-size: 80px;
+}
+
+.image{
+    width: 600px;
+    height: 300px;
+    border-radius: 200px;
+    margin: 30px;
+}
+
+#ex4{
+    float: right;
+    position: relative;
+    top: -60px;
+}
+
+#ex5{
+    clear: both;
+    position: relative;
+    top: -270px;
+}
+
+#ex8{
+    float: right;
+    position: relative;
+    top: -390px;
+}
+
+.gallery p{
+    background-color: rgb(21, 67, 83);
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.gallery ul{
+    float: right;
+    border: 3px solid grey;
+    padding: 40px;
+    position: relative;
+    right: -650px;
+    margin-top: 50px;
+}
+
+.gallery li{
+    list-style: none;
+    font-size: 25px;
+    color: rgb(255, 0, 43);
+    line-height: 30px;
+}
+
+#para1{
+    position: relative;
+    top: 70px;
+}
+
+#para2{
+    position: relative;
+    left: -660px;
+    top: -20px;
+}
+
+footer{
+    background-color: yellowgreen;
+    color: rgb(66, 7, 66);
+    margin: 0px -8px;
+    padding: 90px;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    top: -90px;
+    left: 300px;
+}
+
+footer li{
+    list-style: none;
+    float: left;
+    font-size: 30px;
+}
+
+#mail{
+    position: relative;
+    right: -920px;
+}
+
+footer span{
+    font-size: 20px;
+}
+
+#email a{
+    text-decoration: none;
+    color: rgb(66, 7, 66);
+    position: relative;
+    bottom: -26px;
+    right: -760px;
+}
+
+#contact{
+    position: relative;
+    bottom: -50px;
+    left: -240px;
+}
